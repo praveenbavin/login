@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: palevioletred;
+            
+        }
+        fieldset{
+            /* justify-content: center;
+            display: flex;
+            align-items: center;
+             */
+            border: 2px solid  black;
+            width: 100px;
+            position: relative;
+            left: 550px;
+            top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1></h1>
+    <form action="https://www.instagram.com/">
+        <fieldset>
+            <legend><b>Creat New Account</b></legend>
+            <label for="firstname">  Enter The  FirstName....</label>
+            <input type="text" id="username" name="uname" required><br>
+            <label for="lastname"> Enter The LasttName....</label>
+            <input type="text" id="username" name="uname" required><br>
+            <label for="password">Enter The Password....</label>
+            <input type="password"id="password"name="password" required><br>
+            <label for="re-password">Re-enter The Password</label>
+            <input type="re-password"id="re-password"name="re-password" required><br>
+            <label for="mobil">Enter Mobile Number</label>
+            <input type="tel"id="mobil" name="mobil" required><br>
+            <label for="mail">Enter The  Mail Id.......</label>
+            <input type="mail"id="mail" name="mail" required><br>
+            <label for="">Gender</label ><br>
+            <input type="radio"name="gender" id="male" required>
+            <label for="male">Male</label><br>
+            <input type="radio"name="gender" id="female" required>
+            <label for="female">Female</label><br>
+            <input type="radio"name="gender" id="other" required>
+            <label for="other">Other</label><br>
+            
+            
+            <input type="submit" value="create" >
+            <input type="reset">
+        </fieldset>
+        
+    </form>
+</body>
+</html>
